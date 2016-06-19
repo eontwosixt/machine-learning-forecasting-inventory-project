@@ -1,0 +1,11 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+
+#reading csv file to pandas
+#file size = 3,1 GB
+
+train_data = pd.read_csv('file_path')
+train_data.describe()
+#it is failed.It takes so long time and memory freezed.
